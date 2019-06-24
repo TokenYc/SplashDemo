@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><!--防止启动出现背景闪烁-->
+    <item android:drawable="@color/white"/>
+    <item android:gravity="center"
+        android:top="-300dp">
+        <bitmap android:src="@mipmap/ic_launcher"/>
+    </item>
+
+    <item
+        android:bottom="10dp"
+        android:top="10dp">
+        <bitmap
+            android:gravity="center_horizontal|bottom"
+            android:src="@mipmap/splash_bg" />
+    </item>
+</layer-list>
