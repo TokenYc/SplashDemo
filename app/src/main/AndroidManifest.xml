@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <!--适配刘海屏-->
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
+
+        <!--适配全面屏-->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.5" />
 
         <activity android:name=".MainActivity"
             android:theme="@style/Splash">
